@@ -9,9 +9,7 @@ const Showcase2: React.FC = () => {
         <Reveal delay={80} className="max-w-xl">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight">Meet CloudKicks.<br />Comfort you can live in.</h2>
           <p className="mt-6 text-gray-300 leading-relaxed">
-            Designed for movement, downtime, and everything in between. CloudKicks
-            combine lightweight cushioning with a clean, modern silhouette to deliver
-            everyday comfort without compromise.
+            CloudKicks was created to blur the line between home comfort and streetwear style. Designed to feel soft, effortless, and easy from the moment you put them on, every pair is made to move with you throughout the day, not just stay indoors.
           </p>
 
           <div className="mt-8">

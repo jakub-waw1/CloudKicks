@@ -17,6 +17,8 @@ export const metadata: Metadata = {
   description: "Premium sneaker-slippers designed for everyday comfort and style",
 };
 
+import Header from "./Components/header";
+
 export default function RootLayout({
   children,
 }: {
@@ -27,6 +29,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-neutral-900 text-white antialiased`}
       >
+        <div className="fixed top-0 left-0 right-0 z-50">
+          <Header />
+        </div>
         {children}
       </body>
     </html>
